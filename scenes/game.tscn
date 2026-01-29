@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://byu47meicuqkf"]
+
+[ext_resource type="Script" uid="uid://bgr64tpnwu8h3" path="res://scripts/game.gd" id="1_qxrlw"]
+
+[node name="Game" type="Node2D" unique_id=1683991891]
+script = ExtResource("1_qxrlw")
+
+[node name="StaticBackground" type="CanvasLayer" parent="." unique_id=193569013]
+
+[node name="ColorRect" type="ColorRect" parent="StaticBackground" unique_id=928374388]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.3654913, 0.17766859, 0.5078125, 1)
