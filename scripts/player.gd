@@ -1,9 +1,37 @@
 extends CharacterBody2D
 
 
-const SPEED = 300.0
+const SPEED = 1500.0
 const JUMP_VELOCITY = -400.0
 
+var current_mask = "none"
+var available_masks: Array[String] = []
+var health = 100.0
+var stress = 0.0
+
+func set_health(amount: float):
+	health = amount
+	%HealthBar.value = health
+
+func change_health(amount: float):
+	health += amount
+	if health > 100:
+		health = 100
+	if health <= 0:
+		get_tree().change_scene_to_file("res://scenes/game_over.tscn")
+	%HealthBar.value = health
+
+func set_stress(amount: float):
+	stress = amount
+	%StressBar.value = stress
+
+func change_stress(amount: float):
+	stress += amount
+	if stress < 0:
+		stress = 0
+	if stress >= 100:
+		get_tree().change_scene_to_file("res://scenes/game_over.tscn")
+	%StressBar.value = stress
 
 # move function for sidescroller
 func _physics_process(delta: float) -> void:
@@ -24,8 +52,25 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 
 
-# 2d survival style movement
-#func _physics_process(delta):
-	#var direction = Input.get_vector("left", "right", "up", "down")
-	#velocity = direction * SPEED
-	#move_and_slide()
+func add_mask(mask: String):
+	available_masks.append(mask)
+
+func _input(event: InputEvent):
+	if event.is_action("maske1"):
+		if available_masks.find("maske1") != -1:
+			current_mask = "maske1"
+	if event.is_action("maske2"):
+		if available_masks.find("maske2") != -1:
+			current_mask = "maske2"
+	if event.is_action("maske3"):
+		if available_masks.find("maske3") != -1:
+			current_mask = "maske3"
+	if event.is_action("maske4"):
+		if available_masks.find("maske4") != -1:
+			current_mask = "maske4"
+	if event.is_action("maske5"):
+		if available_masks.find("maske5") != -1:
+			current_mask = "maske5"
+	if event.is_action("maske6"):
+		if available_masks.find("maske6") != -1:
+			current_mask = "maske6"
