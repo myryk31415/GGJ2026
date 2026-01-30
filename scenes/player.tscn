@@ -1,10 +1,74 @@
 [gd_scene format=3 uid="uid://kk0fhnjjanvm"]
 
 [ext_resource type="Script" uid="uid://dkxbesqn7krwb" path="res://scripts/player.gd" id="1_4flbx"]
+[ext_resource type="Texture2D" uid="uid://8gph430hf4br" path="res://assets/heart.png" id="2_g2els"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3vyb7"]
+size = Vector2(40, 40)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3vyb7"]
+bg_color = Color(0.28515625, 0.15171888, 0.12175174, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g2els"]
+bg_color = Color(0.3379285, 0.89453125, 0.23117329, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qhqgy"]
+bg_color = Color(0.2746194, 0.21917725, 0.51953125, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
 
 [node name="Player" type="CharacterBody2D" unique_id=1855753391]
 script = ExtResource("1_4flbx")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1835926073]
+position = Vector2(109, 622)
+shape = SubResource("RectangleShape2D_3vyb7")
 
-[node name="Camera2D" type="Camera2D" parent="." unique_id=235398311]
+[node name="ColorRect" type="ColorRect" parent="." unique_id=476574145]
+offset_left = 89.0
+offset_top = 602.0
+offset_right = 129.0
+offset_bottom = 642.0
+color = Color(1, 0, 0, 1)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1447741686]
+position = Vector2(0, 7)
+anchor_mode = 0
+limit_top = 0
+limit_bottom = 0
+
+[node name="HealthBar" type="ProgressBar" parent="." unique_id=702744169]
+unique_name_in_owner = true
+offset_left = 870.0
+offset_top = 90.0
+offset_right = 1120.0
+offset_bottom = 115.0
+theme_override_styles/background = SubResource("StyleBoxFlat_3vyb7")
+theme_override_styles/fill = SubResource("StyleBoxFlat_g2els")
+value = 100.0
+show_percentage = false
+
+[node name="StressBar" type="ProgressBar" parent="." unique_id=2010198747]
+unique_name_in_owner = true
+offset_left = 870.0
+offset_top = 130.0
+offset_right = 1120.0
+offset_bottom = 155.0
+theme_override_styles/background = SubResource("StyleBoxFlat_3vyb7")
+theme_override_styles/fill = SubResource("StyleBoxFlat_qhqgy")
+show_percentage = false
+
+[node name="Heart" type="Sprite2D" parent="." unique_id=1552378467]
+position = Vector2(850.00006, 102)
+scale = Vector2(0.8749997, 0.8749997)
+texture = ExtResource("2_g2els")

@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://t77kgr886nt8"]
+
+[ext_resource type="Script" uid="uid://bmd87hcyjo17l" path="res://scenes/level_template.gd" id="1_o6142"]
+
+[sub_resource type="Gradient" id="Gradient_o6142"]
+offsets = PackedFloat32Array(0, 0.9961832, 1)
+colors = PackedColorArray(1, 0, 0, 1, 1, 0.9694657, 0.9694657, 1, 1, 1, 1, 1)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_mm7tu"]
+frequency = 0.0332
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_2q6dc"]
+width = 1500
+noise = SubResource("FastNoiseLite_mm7tu")
+color_ramp = SubResource("Gradient_o6142")
+seamless = true
+
+[node name="Level_Template" type="Node2D" unique_id=1815400552]
+script = ExtResource("1_o6142")
+
+[node name="Parallax" type="Node2D" parent="." unique_id=777949917]
+position = Vector2(497, 168)
+
+[node name="ParallaxBack" type="Parallax2D" parent="Parallax" unique_id=1463885944]
+scroll_scale = Vector2(0.3, 1)
+repeat_size = Vector2(2340, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax/ParallaxBack" unique_id=579661710]
+texture = SubResource("NoiseTexture2D_2q6dc")
+
+[node name="ParallaxMiddle" type="Parallax2D" parent="Parallax" unique_id=1388101834]
+scroll_scale = Vector2(0.5, 1)
+repeat_size = Vector2(2340, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax/ParallaxMiddle" unique_id=603080394]
+texture = SubResource("NoiseTexture2D_2q6dc")
+
+[node name="ParallaxFront" type="Parallax2D" parent="Parallax" unique_id=1273942236]
+scroll_scale = Vector2(0.7, 1)
+repeat_size = Vector2(2340, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax/ParallaxFront" unique_id=1530402134]
+texture = SubResource("NoiseTexture2D_2q6dc")
