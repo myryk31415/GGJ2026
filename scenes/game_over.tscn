@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cu55c4a3r34ce"]
 
-[ext_resource type="Script" uid="uid://bg06ne24erced" path="res://scenes/game_over.gd" id="1_xeevv"]
+[ext_resource type="Script" uid="uid://bg06ne24erced" path="res://scripts/game_over.gd" id="1_xeevv"]
 
 [node name="GameOver" type="CanvasLayer" unique_id=1098373884]
 script = ExtResource("1_xeevv")

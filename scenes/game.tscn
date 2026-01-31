@@ -3,9 +3,10 @@
 [ext_resource type="Script" uid="uid://bgr64tpnwu8h3" path="res://scripts/game.gd" id="1_qxrlw"]
 [ext_resource type="PackedScene" uid="uid://t77kgr886nt8" path="res://scenes/level_template.tscn" id="2_lbhrr"]
 [ext_resource type="PackedScene" uid="uid://kk0fhnjjanvm" path="res://scenes/player.tscn" id="2_yqjtg"]
-[ext_resource type="Script" uid="uid://nmmhsy54iga1" path="res://scenes/floor.gd" id="3_lnu2h"]
+[ext_resource type="Script" uid="uid://nmmhsy54iga1" path="res://scripts/floor.gd" id="3_lnu2h"]
 [ext_resource type="Texture2D" uid="uid://c4jm1nq5pe2kq" path="res://assets/ballroom/Parallaxe_1_Venice_Ballroom_lower_Layer.png" id="3_p57ef"]
 [ext_resource type="Texture2D" uid="uid://dfp814gje8kt8" path="res://assets/ballroom/Parallaxe_1_Venice_Ballroom_upper_Layer.png" id="4_u5sy4"]
+[ext_resource type="PackedScene" uid="uid://c2g434eug28dn" path="res://scenes/portal.tscn" id="7_u5sy4"]
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_yqjtg"]
 a = Vector2(130, 641)
@@ -49,3 +50,6 @@ script = ExtResource("3_lnu2h")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Floor" unique_id=495389532]
 position = Vector2(1, 7)
 shape = SubResource("SegmentShape2D_yqjtg")
+
+[node name="Portal" parent="." unique_id=750597789 instance=ExtResource("7_u5sy4")]
+position = Vector2(1461, 0)

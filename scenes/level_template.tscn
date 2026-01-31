@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://t77kgr886nt8"]
 
-[ext_resource type="Script" uid="uid://bmd87hcyjo17l" path="res://scenes/level_template.gd" id="1_o6142"]
+[ext_resource type="Script" uid="uid://bmd87hcyjo17l" path="res://scripts/level_template.gd" id="1_o6142"]
 
 [sub_resource type="Gradient" id="Gradient_o6142"]
 offsets = PackedFloat32Array(0, 0.9961832, 1)
@@ -26,7 +26,6 @@ scroll_scale = Vector2(0.3, 1)
 repeat_size = Vector2(2340, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="Parallax/ParallaxBack" unique_id=579661710]
-texture = SubResource("NoiseTexture2D_2q6dc")
 
 [node name="ParallaxMiddle" type="Parallax2D" parent="Parallax" unique_id=1388101834]
 scroll_scale = Vector2(0.5, 1)
