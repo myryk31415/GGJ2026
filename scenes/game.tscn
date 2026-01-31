@@ -52,4 +52,7 @@ position = Vector2(1, 7)
 shape = SubResource("SegmentShape2D_yqjtg")
 
 [node name="Portal" parent="." unique_id=750597789 instance=ExtResource("7_u5sy4")]
+unique_name_in_owner = true
 position = Vector2(1461, 0)
+
+[connection signal="teleport" from="Portal" to="." method="_on_portal_teleport"]

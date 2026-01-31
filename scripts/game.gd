@@ -9,3 +9,8 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if %Player.current_mask != %CurrentLevel.required_mask:
 		%CurrentLevel.mask_action
+
+
+func _on_portal_teleport() -> void:
+	%Portal.global_position.x = 2500
+	%Player.global_position.x = 20
