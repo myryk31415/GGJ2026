@@ -46,7 +46,16 @@
 [ext_resource type="Texture2D" uid="uid://ieucfojltx3x" path="res://assets/Animations_And_Icons/Portale/BallRaumPortal/frame0007.png" id="36_ywjod"]
 [ext_resource type="Texture2D" uid="uid://drjakh77wiqv5" path="res://assets/Animations_And_Icons/Portale/BallRaumPortal/frame0008.png" id="37_nawit"]
 [ext_resource type="Texture2D" uid="uid://d0ibn0mfakmw0" path="res://assets/Animations_And_Icons/Portale/Weltraum_Portal/frame0008.png" id="37_oqts3"]
+[ext_resource type="Texture2D" uid="uid://b3auiapb818h" path="res://assets/Animations_And_Icons/Portale/Portal_Waste/frame0000.png" id="47_4tabl"]
 [ext_resource type="AudioStream" uid="uid://oc7nxduxghrg" path="res://assets/music_and_sound/Portal_alla_V+.mp3" id="47_tp2ea"]
+[ext_resource type="Texture2D" uid="uid://dyvwndux7a4bw" path="res://assets/Animations_And_Icons/Portale/Portal_Waste/frame0001.png" id="48_0trgm"]
+[ext_resource type="Texture2D" uid="uid://cabbvl3ns71oc" path="res://assets/Animations_And_Icons/Portale/Portal_Waste/frame0002.png" id="49_r30bk"]
+[ext_resource type="Texture2D" uid="uid://dbaf8k1373ce4" path="res://assets/Animations_And_Icons/Portale/Portal_Waste/frame0003.png" id="50_nd8n6"]
+[ext_resource type="Texture2D" uid="uid://clh04x5hd033f" path="res://assets/Animations_And_Icons/Portale/Portal_Waste/frame0004.png" id="51_3sktl"]
+[ext_resource type="Texture2D" uid="uid://c6rq2t3ecv7b1" path="res://assets/Animations_And_Icons/Portale/Portal_Waste/frame0005.png" id="52_se2m0"]
+[ext_resource type="Texture2D" uid="uid://661epqjnncqy" path="res://assets/Animations_And_Icons/Portale/Portal_Waste/frame0006.png" id="53_wd5xy"]
+[ext_resource type="Texture2D" uid="uid://dqntr7k4g7tws" path="res://assets/Animations_And_Icons/Portale/Portal_Waste/frame0007.png" id="54_oqts3"]
+[ext_resource type="Texture2D" uid="uid://cegx2rlgmfg1o" path="res://assets/Animations_And_Icons/Portale/Portal_Waste/frame0008.png" id="55_qkurl"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_7typk"]
 animations = [{
@@ -212,31 +221,31 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_5yude")
+"texture": ExtResource("47_4tabl")
 }, {
 "duration": 1.0,
-"texture": ExtResource("3_e5sgc")
+"texture": ExtResource("48_0trgm")
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_11dha")
+"texture": ExtResource("49_r30bk")
 }, {
 "duration": 1.0,
-"texture": ExtResource("5_hay7w")
+"texture": ExtResource("50_nd8n6")
 }, {
 "duration": 1.0,
-"texture": ExtResource("6_33yj3")
+"texture": ExtResource("51_3sktl")
 }, {
 "duration": 1.0,
-"texture": ExtResource("7_ybu0s")
+"texture": ExtResource("52_se2m0")
 }, {
 "duration": 1.0,
-"texture": ExtResource("8_h50eh")
+"texture": ExtResource("53_wd5xy")
 }, {
 "duration": 1.0,
-"texture": ExtResource("9_f7pif")
+"texture": ExtResource("54_oqts3")
 }, {
 "duration": 1.0,
-"texture": ExtResource("10_kjyi5")
+"texture": ExtResource("55_qkurl")
 }],
 "loop": true,
 "name": &"wasteland",
@@ -259,7 +268,7 @@ script = ExtResource("1_v0xau")
 position = Vector2(61.00003, 449.99997)
 scale = Vector2(0.3305556, 0.33055553)
 sprite_frames = SubResource("SpriteFrames_7typk")
-frame_progress = 0.5319789
+animation = &"wasteland"
 
 [node name="Area2D" type="Area2D" parent="." unique_id=1284291779]
 unique_name_in_owner = true
@@ -291,7 +300,7 @@ shape = SubResource("RectangleShape2D_jr6l0")
 unique_name_in_owner = true
 position = Vector2(72, 430)
 stream = ExtResource("47_tp2ea")
-volume_db = -10.0
+volume_db = -15.0
 
 [connection signal="body_entered" from="TeleportTrigger" to="." method="_on_teleport_trigger_body_entered"]
 [connection signal="body_exited" from="TeleportTrigger" to="." method="_on_teleport_trigger_body_exited"]
