@@ -14,5 +14,8 @@ func _process(_delta: float) -> void:
 
 
 func _on_portal_teleport() -> void:
-	%Portal.global_position.x = 2500
 	%Player.global_position.x = 20
+	var new_level = load(%CurrentLevel.get_child(0).get_child(0).next_level)
+	new_level = new_level.instantiate()
+	%CurrentLevel.remove_child(%CurrentLevel.get_child(0))
+	%CurrentLevel.add_child(new_level)

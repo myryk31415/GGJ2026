@@ -38,5 +38,5 @@ func _on_teleport_trigger_body_entered(body: Node2D) -> void:
 	if body.name == "Player":
 		var scene_transition_animation = get_node("/root/Game/SceneTransitionAnimation")
 		scene_transition_animation.play_fade_in_and_out()
-	await get_tree().create_timer(0.5).timeout
-	teleport.emit()
+		await get_tree().create_timer(0.5).timeout
+		teleport.emit()

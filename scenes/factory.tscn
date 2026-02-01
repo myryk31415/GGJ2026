@@ -7,8 +7,9 @@
 
 [node name="Factory" type="Node2D" unique_id=564017957]
 
-[node name="Level2" parent="." unique_id=1815400552 instance=ExtResource("1_quloc")]
+[node name="Parallax" parent="." unique_id=1815400552 instance=ExtResource("1_quloc")]
 position = Vector2(1, 0)
+next_level = "res://scenes/masked_ball.tscn"
 scale_2 = 0.8
 parallax_3 = ExtResource("2_k2tyu")
 offset_3 = 50

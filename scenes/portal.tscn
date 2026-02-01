@@ -40,13 +40,14 @@ position = Vector2(0, 329)
 shape = SubResource("RectangleShape2D_1ffj6")
 
 [node name="TeleportTrigger" type="Area2D" parent="." unique_id=627088301]
+collision_layer = 0
+collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TeleportTrigger" unique_id=1731384128]
 position = Vector2(23.75, 332)
 shape = SubResource("RectangleShape2D_v0xau")
 
 [node name="BackCollision" type="StaticBody2D" parent="." unique_id=2012195354]
-collision_layer = 3
 collision_mask = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="BackCollision" unique_id=174587413]

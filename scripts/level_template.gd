@@ -2,6 +2,8 @@
 
 extends Node2D
 
+@export var next_level: String = ""
+
 @export var parallax_1: Texture2D = null
 @export var offset_1: int = 0
 @export var scale_1: float = 1

@@ -7,7 +7,8 @@
 
 [node name="Forest" type="Node2D" unique_id=1594542681]
 
-[node name="Level4" parent="." unique_id=1815400552 instance=ExtResource("1_xr56k")]
+[node name="Parallax" parent="." unique_id=1815400552 instance=ExtResource("1_xr56k")]
+next_level = "res://scenes/space.tscn"
 parallax_2 = ExtResource("2_sek5r")
 scale_2 = 0.8
 parallax_4 = ExtResource("3_i1yi8")

@@ -6,7 +6,8 @@
 
 [node name="MaskedBall" type="Node2D" unique_id=1706377424]
 
-[node name="Level1" parent="." unique_id=1815400552 instance=ExtResource("1_0n0i2")]
+[node name="Parallax" parent="." unique_id=1815400552 instance=ExtResource("1_0n0i2")]
+next_level = "res://scenes/forest.tscn"
 parallax_2 = ExtResource("2_i0bv7")
 offset_2 = 20
 scale_2 = 0.8

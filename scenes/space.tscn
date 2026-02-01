@@ -10,7 +10,8 @@
 
 [node name="Space" type="Node2D" unique_id=811908889]
 
-[node name="Level3" parent="." unique_id=1815400552 instance=ExtResource("1_ocmas")]
+[node name="Parallax" parent="." unique_id=1815400552 instance=ExtResource("1_ocmas")]
+next_level = "res://scenes/factory.tscn"
 parallax_1 = ExtResource("2_gk1qj")
 parallax_2 = ExtResource("3_dv837")
 parallax_3 = ExtResource("4_a65qk")
