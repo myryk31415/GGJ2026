@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://byu47meicuqkf"]
 
 [ext_resource type="Script" uid="uid://bgr64tpnwu8h3" path="res://scripts/game.gd" id="1_qxrlw"]
-[ext_resource type="PackedScene" uid="uid://dtli5ysunqa60" path="res://scenes/masked_ball.tscn" id="2_p57ef"]
+[ext_resource type="PackedScene" path="res://scenes/masked_ball.tscn" id="2_p57ef"]
 [ext_resource type="PackedScene" uid="uid://kk0fhnjjanvm" path="res://scenes/player.tscn" id="2_yqjtg"]
 [ext_resource type="Script" uid="uid://nmmhsy54iga1" path="res://scripts/floor.gd" id="3_lnu2h"]
 [ext_resource type="PackedScene" uid="uid://c2g434eug28dn" path="res://scenes/portal.tscn" id="7_u5sy4"]
-[ext_resource type="PackedScene" uid="uid://rrj2q11f1mre" path="res://scenes/scene_transition_animation.tscn" id="19_1kice"]
+[ext_resource type="PackedScene" path="res://scenes/scene_transition_animation.tscn" id="19_1kice"]
 
 [sub_resource type="Environment" id="Environment_u5sy4"]
 background_mode = 3
@@ -37,6 +37,10 @@ unique_name_in_owner = true
 
 [node name="MaskedBall" parent="CurrentLevel" unique_id=1706377424 instance=ExtResource("2_p57ef")]
 
+[node name="Portal" parent="." unique_id=750597789 instance=ExtResource("7_u5sy4")]
+unique_name_in_owner = true
+position = Vector2(783, 0)
+
 [node name="Player" parent="." unique_id=1855753391 instance=ExtResource("2_yqjtg")]
 unique_name_in_owner = true
 
@@ -46,23 +50,6 @@ script = ExtResource("3_lnu2h")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Floor" unique_id=495389532]
 position = Vector2(1, 7)
 shape = SubResource("SegmentShape2D_yqjtg")
-
-[node name="Flash" type="CanvasLayer" parent="." unique_id=1043781654]
-
-[node name="FlashRect" type="ColorRect" parent="Flash" unique_id=350464204]
-unique_name_in_owner = true
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 1.0
-offset_right = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-color = Color(1, 1, 1, 0)
-
-[node name="Portal" parent="." unique_id=750597789 instance=ExtResource("7_u5sy4")]
-unique_name_in_owner = true
-position = Vector2(783, 0)
 
 [node name="SceneTransitionAnimation" parent="." unique_id=484421917 instance=ExtResource("19_1kice")]
 

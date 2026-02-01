@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://k37xmnygrcji"]
+
+[ext_resource type="PackedScene" path="res://scenes/parallax_template.tscn" id="1_0nwio"]
+
+[node name="Wasteland" type="Node2D" unique_id=550227671]
+
+[node name="Parallax" parent="." unique_id=1815400552 instance=ExtResource("1_0nwio")]
+next_level = "res://scenes/masked_ball.tscn"

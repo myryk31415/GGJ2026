@@ -27,6 +27,7 @@ func set_stress(amount: float):
 
 func change_stress(amount: float):
 	stress += amount
+	
 	if stress < 0:
 		stress = 0
 	if stress >= 100:
