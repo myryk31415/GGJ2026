@@ -5,38 +5,32 @@
 [ext_resource type="Texture2D" uid="uid://c03387pbmp3l7" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0000.png" id="2_nubpm"]
 [ext_resource type="Texture2D" uid="uid://duimehmbavewj" path="res://assets/Animations_And_Icons/GasMask/frame0000.png" id="3_f1ej7"]
 [ext_resource type="Texture2D" uid="uid://bb55g1fvqycdo" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0002.png" id="3_ua5cf"]
-[ext_resource type="Texture2D" uid="uid://cqbxedten2xtm" path="res://assets/Animations_And_Icons/UnMasked/frame0000.png" id="3_ujl30"]
-[ext_resource type="Texture2D" uid="uid://toi1sxa2dou7" path="res://assets/Animations_And_Icons/UnMasked/frame0001.png" id="4_31cv2"]
+[ext_resource type="Texture2D" uid="uid://b7ykw6ym7mo6q" path="res://assets/Animations_And_Icons/UnMasked/frame0000.png" id="3_ujl30"]
 [ext_resource type="Texture2D" uid="uid://bluw423sp8t8j" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0004.png" id="4_51ujp"]
 [ext_resource type="Texture2D" uid="uid://dj1fvjxmovsfb" path="res://assets/Animations_And_Icons/GasMask/frame0002.png" id="4_oprun"]
 [ext_resource type="Texture2D" uid="uid://dsypa5jyds50m" path="res://assets/Animations_And_Icons/GasMask/frame0004.png" id="5_a8ls1"]
-[ext_resource type="Texture2D" uid="uid://i800mxe3eb21" path="res://assets/Animations_And_Icons/UnMasked/frame0002.png" id="5_pf23h"]
+[ext_resource type="Texture2D" uid="uid://vpyese2ucs0c" path="res://assets/Animations_And_Icons/UnMasked/frame0002.png" id="5_pf23h"]
 [ext_resource type="Texture2D" uid="uid://pqqcuh3oq6hb" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0006.png" id="5_tk41t"]
-[ext_resource type="Texture2D" uid="uid://hsgndeg1borx" path="res://assets/Animations_And_Icons/UnMasked/frame0003.png" id="6_dt7fs"]
 [ext_resource type="Texture2D" uid="uid://d0qrtm3tpptat" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0008.png" id="6_fuw3a"]
 [ext_resource type="Texture2D" uid="uid://c6elghyus8yca" path="res://assets/Animations_And_Icons/GasMask/frame0006.png" id="6_qfm1y"]
 [ext_resource type="Texture2D" uid="uid://8rtv5s25vrsq" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0010.png" id="7_8txt3"]
 [ext_resource type="Texture2D" uid="uid://661ijdkdaqwk" path="res://assets/Animations_And_Icons/GasMask/frame0008.png" id="7_fulsm"]
-[ext_resource type="Texture2D" uid="uid://dirx5tmo0plm6" path="res://assets/Animations_And_Icons/UnMasked/frame0004.png" id="7_wqfne"]
+[ext_resource type="Texture2D" uid="uid://d0u3w2kxomfm7" path="res://assets/Animations_And_Icons/UnMasked/frame0004.png" id="7_wqfne"]
 [ext_resource type="Texture2D" uid="uid://qe4m0okyrmwr" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0012.png" id="8_2w11d"]
 [ext_resource type="Texture2D" uid="uid://daqn5q6fv74ug" path="res://assets/Animations_And_Icons/GasMask/frame0010.png" id="8_4r5pv"]
-[ext_resource type="Texture2D" uid="uid://uywwk6bo2pqv" path="res://assets/Animations_And_Icons/UnMasked/frame0005.png" id="8_wnwbv"]
 [ext_resource type="Texture2D" uid="uid://bf73kr4mdi0uh" path="res://assets/Animations_And_Icons/GasMask/frame0012.png" id="9_60mlk"]
 [ext_resource type="Texture2D" uid="uid://c6ric1n8ilv4f" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0014.png" id="9_770dr"]
-[ext_resource type="Texture2D" uid="uid://chbha3yg5qftu" path="res://assets/Animations_And_Icons/UnMasked/frame0006.png" id="9_gl8cc"]
+[ext_resource type="Texture2D" uid="uid://cg3if2d3p83t2" path="res://assets/Animations_And_Icons/UnMasked/frame0006.png" id="9_gl8cc"]
 [ext_resource type="Texture2D" uid="uid://7b1qg64bqv43" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0016.png" id="10_8f1cb"]
-[ext_resource type="Texture2D" uid="uid://bolrkrka0fdcx" path="res://assets/Animations_And_Icons/UnMasked/frame0007.png" id="10_487ah"]
 [ext_resource type="Texture2D" uid="uid://cfy8nw1e4qpns" path="res://assets/Animations_And_Icons/GasMask/frame0014.png" id="10_i4ail"]
 [ext_resource type="Texture2D" uid="uid://bukpvlbx62ikh" path="res://assets/Animations_And_Icons/GasMask/frame0016.png" id="11_a38lo"]
-[ext_resource type="Texture2D" uid="uid://cxfisqc5dv5a6" path="res://assets/Animations_And_Icons/UnMasked/frame0008.png" id="11_md1ol"]
+[ext_resource type="Texture2D" uid="uid://dt8531y3pcxla" path="res://assets/Animations_And_Icons/UnMasked/frame0008.png" id="11_md1ol"]
 [ext_resource type="Texture2D" uid="uid://c55p8x2ofq1e8" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0018.png" id="11_vdulj"]
 [ext_resource type="Texture2D" uid="uid://32v8osvjnvda" path="res://assets/Animations_And_Icons/GasMask/frame0018.png" id="12_4ni07"]
-[ext_resource type="Texture2D" uid="uid://cjibwtrgt65nb" path="res://assets/Animations_And_Icons/UnMasked/frame0009.png" id="12_bj30b"]
 [ext_resource type="Texture2D" uid="uid://ddjtbeduf83qt" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0020.png" id="12_vau08"]
-[ext_resource type="Texture2D" uid="uid://bpxysmi0sqb4" path="res://assets/Animations_And_Icons/UnMasked/frame0010.png" id="13_jc3p3"]
+[ext_resource type="Texture2D" uid="uid://cyepe3pcjfa3d" path="res://assets/Animations_And_Icons/UnMasked/frame0010.png" id="13_jc3p3"]
 [ext_resource type="Texture2D" uid="uid://creufdqltgp58" path="res://assets/Animations_And_Icons/GasMask/frame0020.png" id="13_l71n6"]
 [ext_resource type="Texture2D" uid="uid://dva67eruirwo2" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0022.png" id="13_qsb7e"]
-[ext_resource type="Texture2D" uid="uid://o7u8wkxpleoe" path="res://assets/Animations_And_Icons/UnMasked/frame0011.png" id="14_hax0n"]
 [ext_resource type="Texture2D" uid="uid://v11i7i8igc8g" path="res://assets/Animations_And_Icons/GasMask/frame0022.png" id="14_ke2ow"]
 [ext_resource type="Texture2D" uid="uid://j3aeh8crq1mo" path="res://assets/Animations_And_Icons/VenedigMask/frame0000.png" id="15_t4otl"]
 [ext_resource type="Texture2D" uid="uid://dbqh4bpc4vk2k" path="res://assets/Animations_And_Icons/VenedigMask/frame0002.png" id="16_j2b1d"]
@@ -44,11 +38,17 @@
 [ext_resource type="Texture2D" uid="uid://d1r4r6204h2iu" path="res://assets/Animations_And_Icons/VenedigMask/frame0006.png" id="18_2dvfe"]
 [ext_resource type="Texture2D" uid="uid://bbavg2a1vi7uf" path="res://assets/Animations_And_Icons/VenedigMask/frame0008.png" id="19_giy8y"]
 [ext_resource type="Texture2D" uid="uid://1452y8tbdjow" path="res://assets/Animations_And_Icons/VenedigMask/frame0010.png" id="20_fdfoy"]
+[ext_resource type="Texture2D" uid="uid://ddlkoslws1vrq" path="res://assets/Animations_And_Icons/UnMasked/frame0012.png" id="20_nubpm"]
 [ext_resource type="Texture2D" uid="uid://nl6ucfoo0xrq" path="res://assets/Animations_And_Icons/VenedigMask/frame0012.png" id="21_hhpqf"]
+[ext_resource type="Texture2D" uid="uid://drcspa8benihj" path="res://assets/Animations_And_Icons/UnMasked/frame0014.png" id="21_ua5cf"]
+[ext_resource type="Texture2D" uid="uid://bwonlh3vqj2xt" path="res://assets/Animations_And_Icons/UnMasked/frame0016.png" id="22_51ujp"]
 [ext_resource type="Texture2D" uid="uid://dqnncvrngad7h" path="res://assets/Animations_And_Icons/VenedigMask/frame0014.png" id="22_g5jhy"]
 [ext_resource type="Texture2D" uid="uid://dt8jo46ohg1gg" path="res://assets/Animations_And_Icons/VenedigMask/frame0016.png" id="23_holxr"]
+[ext_resource type="Texture2D" uid="uid://dv5oaafjmkf6d" path="res://assets/Animations_And_Icons/UnMasked/frame0018.png" id="23_tk41t"]
+[ext_resource type="Texture2D" uid="uid://g2rpa8pn07yx" path="res://assets/Animations_And_Icons/UnMasked/frame0020.png" id="24_fuw3a"]
 [ext_resource type="Texture2D" uid="uid://bc53ubsn1u3xx" path="res://assets/Animations_And_Icons/VenedigMask/frame0018.png" id="24_mx1m4"]
 [ext_resource type="Texture2D" uid="uid://bfvfy13dofrb5" path="res://assets/Animations_And_Icons/VenedigMask/frame0020.png" id="25_4gjji"]
+[ext_resource type="Texture2D" uid="uid://dvgyxjeh676p0" path="res://assets/Animations_And_Icons/UnMasked/frame0022.png" id="25_8txt3"]
 [ext_resource type="Texture2D" uid="uid://b0m46rhrnqw71" path="res://assets/Animations_And_Icons/VenedigMask/frame0022.png" id="26_u2ulf"]
 [ext_resource type="Texture2D" uid="uid://dk6r5lfkav0tw" path="res://assets/Animations_And_Icons/Astro/frame0000.png" id="27_6e8lb"]
 [ext_resource type="Texture2D" uid="uid://i8yoy5b2y8u" path="res://assets/Animations_And_Icons/Astro/frame0002.png" id="28_2gdjj"]
@@ -111,37 +111,37 @@ animations = [{
 "texture": ExtResource("3_ujl30")
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_31cv2")
-}, {
-"duration": 1.0,
 "texture": ExtResource("5_pf23h")
-}, {
-"duration": 1.0,
-"texture": ExtResource("6_dt7fs")
 }, {
 "duration": 1.0,
 "texture": ExtResource("7_wqfne")
 }, {
 "duration": 1.0,
-"texture": ExtResource("8_wnwbv")
-}, {
-"duration": 1.0,
 "texture": ExtResource("9_gl8cc")
-}, {
-"duration": 1.0,
-"texture": ExtResource("10_487ah")
 }, {
 "duration": 1.0,
 "texture": ExtResource("11_md1ol")
 }, {
 "duration": 1.0,
-"texture": ExtResource("12_bj30b")
-}, {
-"duration": 1.0,
 "texture": ExtResource("13_jc3p3")
 }, {
 "duration": 1.0,
-"texture": ExtResource("14_hax0n")
+"texture": ExtResource("20_nubpm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ua5cf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_51ujp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_tk41t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_fuw3a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_8txt3")
 }],
 "loop": true,
 "name": &"forest",
@@ -304,9 +304,7 @@ unique_name_in_owner = true
 position = Vector2(235, 502)
 scale = Vector2(0.3845361, 0.3845361)
 sprite_frames = SubResource("SpriteFrames_ujl30")
-animation = &"factory"
-frame = 11
-frame_progress = 0.17514119
+animation = &"forest"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1835926073]
 position = Vector2(123, 532.5)

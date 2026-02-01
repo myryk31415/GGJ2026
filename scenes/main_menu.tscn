@@ -39,11 +39,6 @@ alignment = 1
 [node name="VBoxContainer" type="HBoxContainer" parent="ColorRect/MarginContainer/HBoxContainer/VBoxContainer" unique_id=1956222386]
 layout_mode = 2
 
-[node name="Logo" type="ColorRect" parent="ColorRect/MarginContainer/HBoxContainer/VBoxContainer/VBoxContainer" unique_id=617117701]
-custom_minimum_size = Vector2(100, 100)
-layout_mode = 2
-color = Color(1, 0.32951224, 0.26226664, 1)
-
 [node name="Title" type="Label" parent="ColorRect/MarginContainer/HBoxContainer/VBoxContainer/VBoxContainer" unique_id=1116805673]
 layout_mode = 2
 size_flags_horizontal = 3
