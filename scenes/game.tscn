@@ -5,7 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://kk0fhnjjanvm" path="res://scenes/player.tscn" id="2_yqjtg"]
 [ext_resource type="Script" uid="uid://nmmhsy54iga1" path="res://scripts/floor.gd" id="3_lnu2h"]
 [ext_resource type="PackedScene" uid="uid://c2g434eug28dn" path="res://scenes/portal.tscn" id="7_u5sy4"]
-[ext_resource type="PackedScene" path="res://scenes/scene_transition_animation.tscn" id="19_1kice"]
+[ext_resource type="PackedScene" uid="uid://rrj2q11f1mre" path="res://scenes/scene_transition_animation.tscn" id="19_1kice"]
 
 [sub_resource type="Environment" id="Environment_u5sy4"]
 background_mode = 3
@@ -39,7 +39,7 @@ unique_name_in_owner = true
 
 [node name="Portal" parent="." unique_id=750597789 instance=ExtResource("7_u5sy4")]
 unique_name_in_owner = true
-position = Vector2(783, 0)
+position = Vector2(3000, 0)
 
 [node name="Player" parent="." unique_id=1855753391 instance=ExtResource("2_yqjtg")]
 unique_name_in_owner = true
