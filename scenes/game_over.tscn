@@ -58,9 +58,4 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 30
 text = "Main Menu"
 
-[node name="ArtWork" type="ColorRect" parent="ColorRect/MarginContainer/HBoxContainer" unique_id=692391659]
-custom_minimum_size = Vector2(300, 300)
-layout_mode = 2
-color = Color(1, 0.32951224, 0.26226664, 1)
-
 [connection signal="pressed" from="ColorRect/MarginContainer/HBoxContainer/VBoxContainer/MainMenu" to="." method="_on_main_menu_pressed"]
