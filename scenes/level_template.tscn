@@ -46,3 +46,8 @@ scroll_offset = Vector2(106, 154)
 repeat_size = Vector2(2340, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="Parallax/Parallax6" unique_id=1658600882]
+
+[node name="Music" type="AudioStreamPlayer" parent="." unique_id=496195079]
+unique_name_in_owner = true
+volume_db = -20.0
+autoplay = true

@@ -35,6 +35,7 @@ func _process(_delta: float) -> void:
 
 
 func _on_teleport_trigger_body_entered(body: Node2D) -> void:
+	%SoundEffects.play()
 	if body.name == "Player":
 		var scene_transition_animation = get_node("/root/Game/SceneTransitionAnimation")
 		scene_transition_animation.play_fade_in_and_out()

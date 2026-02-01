@@ -1,8 +1,10 @@
-@tool
+#@tool
 
 extends Node2D
 
 @export var next_level: String = ""
+
+@export var song: AudioStream = null
 
 @export var parallax_1: Texture2D = null
 @export var offset_1: int = 0
@@ -35,6 +37,8 @@ extends Node2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	%Music.stream = song
+	%Music.play()
 	var sprite = $Parallax/Parallax1/Sprite2D
 	var repeat_size: int = 0
 	sprite.texture = parallax_1

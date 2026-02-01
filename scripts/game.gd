@@ -16,7 +16,6 @@ func _process(_delta: float) -> void:
 func _on_portal_teleport() -> void:
 	%Player.global_position.x = 20
 	var new_level = %CurrentLevel.get_child(0).get_child(0).next_level
-	print(str("res://scenes/", new_level, ".tscn"))
 	var scene = load(str("res://scenes/", new_level, ".tscn"))
 	scene = scene.instantiate()
 	%CurrentLevel.remove_child(%CurrentLevel.get_child(0))

@@ -46,6 +46,7 @@
 [ext_resource type="Texture2D" uid="uid://ieucfojltx3x" path="res://assets/Animations_And_Icons/Portale/BallRaumPortal/frame0007.png" id="36_ywjod"]
 [ext_resource type="Texture2D" uid="uid://drjakh77wiqv5" path="res://assets/Animations_And_Icons/Portale/BallRaumPortal/frame0008.png" id="37_nawit"]
 [ext_resource type="Texture2D" uid="uid://d0ibn0mfakmw0" path="res://assets/Animations_And_Icons/Portale/Weltraum_Portal/frame0008.png" id="37_oqts3"]
+[ext_resource type="AudioStream" uid="uid://oc7nxduxghrg" path="res://assets/music_and_sound/Portal_alla_V+.mp3" id="47_tp2ea"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_7typk"]
 animations = [{
@@ -258,9 +259,7 @@ script = ExtResource("1_v0xau")
 position = Vector2(61.00003, 449.99997)
 scale = Vector2(0.3305556, 0.33055553)
 sprite_frames = SubResource("SpriteFrames_7typk")
-animation = &"wasteland"
-autoplay = "default"
-frame_progress = 0.26364818
+frame_progress = 0.5319789
 
 [node name="Area2D" type="Area2D" parent="." unique_id=1284291779]
 unique_name_in_owner = true
@@ -287,6 +286,12 @@ collision_mask = 3
 [node name="CollisionShape2D" type="CollisionShape2D" parent="BackCollision" unique_id=174587413]
 position = Vector2(76.5, 327.5)
 shape = SubResource("RectangleShape2D_jr6l0")
+
+[node name="SoundEffects" type="AudioStreamPlayer2D" parent="." unique_id=1941471728]
+unique_name_in_owner = true
+position = Vector2(72, 430)
+stream = ExtResource("47_tp2ea")
+volume_db = -10.0
 
 [connection signal="body_entered" from="TeleportTrigger" to="." method="_on_teleport_trigger_body_entered"]
 [connection signal="body_exited" from="TeleportTrigger" to="." method="_on_teleport_trigger_body_exited"]
