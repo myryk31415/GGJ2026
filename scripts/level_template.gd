@@ -2,15 +2,29 @@
 
 extends Node2D
 
-@export var parallax_back: Texture2D = null
-@export var offset_back: int = 0
-@export var scale_back: float = 1
-@export var parallax_middle: Texture2D = null
-@export var offset_middle: int = 0
-@export var scale_middle: float = 1
-@export var parallax_front: Texture2D = null
-@export var offset_front: int = 0
-@export var scale_front: float = 1
+@export var parallax_1: Texture2D = null
+@export var offset_1: int = 0
+@export var scale_1: float = 1
+
+@export var parallax_2: Texture2D = null
+@export var offset_2: int = 0
+@export var scale_2: float = 1
+
+@export var parallax_3: Texture2D = null
+@export var offset_3: int = 0
+@export var scale_3: float = 1
+
+@export var parallax_4: Texture2D = null
+@export var offset_4: int = 0
+@export var scale_4: float = 1
+
+@export var parallax_5: Texture2D = null
+@export var offset_5: int = 0
+@export var scale_5: float = 1
+
+@export var parallax_6: Texture2D = null
+@export var offset_6: int = 0
+@export var scale_6: float = 1
 
 @export var required_mask: String = ""
 
@@ -19,36 +33,55 @@ extends Node2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	var sprite = $Parallax/ParallaxBack/Sprite2D
-	sprite.texture = parallax_back
-	if !sprite.texture:
-		return
-	sprite.offset = Vector2(0, offset_back)
-	sprite.scale = Vector2(scale_back, scale_back)
-	var repeat_size = sprite.texture.get_width() * sprite.scale.x
-	$Parallax/ParallaxBack.repeat_size = Vector2(repeat_size, 0)
-	print(sprite.texture.get_width() * sprite.scale.x)
-	print (repeat_size)
+	var sprite = $Parallax/Parallax1/Sprite2D
+	var repeat_size: int = 0
+	sprite.texture = parallax_1
+	if sprite.texture:
+		sprite.offset = Vector2(0, offset_1)
+		sprite.scale = Vector2(scale_1, scale_1)
+		repeat_size = sprite.texture.get_width() * sprite.scale.x
+		$Parallax/Parallax1.repeat_size = Vector2(repeat_size, 0)
 	
-	sprite = $Parallax/ParallaxMiddle/Sprite2D
-	sprite.texture = parallax_middle
-	if !sprite.texture:
-		return
-	sprite.offset = Vector2(0, offset_middle)
-	sprite.scale = Vector2(scale_middle, scale_middle)
-	repeat_size = sprite.texture.get_width() * sprite.scale.x
-	$Parallax/ParallaxMiddle.repeat_size = Vector2(repeat_size, 0)
+	sprite = $Parallax/Parallax2/Sprite2D
+	sprite.texture = parallax_2
+	if sprite.texture:
+		sprite.offset = Vector2(0, offset_2)
+		sprite.scale = Vector2(scale_2, scale_2)
+		repeat_size = sprite.texture.get_width() * sprite.scale.x
+		$Parallax/Parallax2.repeat_size = Vector2(repeat_size, 0)
 	
-	sprite = $Parallax/ParallaxFront/Sprite2D
-	sprite.texture = parallax_front
-	if !sprite.texture:
-		return
-	sprite.offset = Vector2(0, offset_front)
-	sprite.scale = Vector2(scale_front, scale_front)
-	repeat_size = sprite.texture.get_width() * sprite.scale.x
-	$Parallax/ParallaxFront.repeat_size = Vector2(repeat_size, 0)
+	sprite = $Parallax/Parallax3/Sprite2D
+	sprite.texture = parallax_3
+	if sprite.texture:
+		sprite.offset = Vector2(0, offset_3)
+		sprite.scale = Vector2(scale_3, scale_3)
+		repeat_size = sprite.texture.get_width() * sprite.scale.x
+		$Parallax/Parallax3.repeat_size = Vector2(repeat_size, 0)
 	
+	sprite = $Parallax/Parallax4/Sprite2D
+	sprite.texture = parallax_4
+	if sprite.texture:
+		sprite.offset = Vector2(0, offset_4)
+		sprite.scale = Vector2(scale_4, scale_4)
+		repeat_size = sprite.texture.get_width() * sprite.scale.x
+		$Parallax/Parallax4.repeat_size = Vector2(repeat_size, 0)
+	
+	sprite = $Parallax/Parallax5/Sprite2D
+	sprite.texture = parallax_5
+	if sprite.texture:
+		sprite.offset = Vector2(0, offset_5)
+		sprite.scale = Vector2(scale_5, scale_5)
+		repeat_size = sprite.texture.get_width() * sprite.scale.x
+		$Parallax/Parallax5.repeat_size = Vector2(repeat_size, 0)
+	
+	sprite = $Parallax/Parallax6/Sprite2D
+	sprite.texture = parallax_6
+	if sprite.texture:
+		sprite.offset = Vector2(0, offset_6)
+		sprite.scale = Vector2(scale_6, scale_6)
+		repeat_size = sprite.texture.get_width() * sprite.scale.x
+		$Parallax/Parallax6.repeat_size = Vector2(repeat_size, 0)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	pass

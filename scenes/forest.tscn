@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://ctpdbt4sjley5"]
+
+[ext_resource type="PackedScene" uid="uid://t77kgr886nt8" path="res://scenes/level_template.tscn" id="1_xr56k"]
+[ext_resource type="Texture2D" uid="uid://dm50l8j3vsj0e" path="res://assets/forest/wald neu3.png" id="2_sek5r"]
+[ext_resource type="Texture2D" uid="uid://dsxgfenyula6c" path="res://assets/forest/wald neu2.png" id="3_i1yi8"]
+[ext_resource type="Texture2D" uid="uid://ci5agtagl6cny" path="res://assets/forest/wald neu1.png" id="4_qm7rg"]
+[ext_resource type="PackedScene" uid="uid://d02tuj1c8p761" path="res://scenes/parallax_template.tscn" id="5_0nboi"]
+
+[node name="Forest" type="Node2D" unique_id=1594542681]
+
+[node name="Level4" parent="." unique_id=1815400552 instance=ExtResource("1_xr56k")]
+parallax_2 = ExtResource("2_sek5r")
+scale_2 = 0.8
+parallax_4 = ExtResource("3_i1yi8")
+offset_4 = -120
+scale_4 = 0.8
+parallax_6 = ExtResource("4_qm7rg")
+offset_6 = -250
+scale_6 = 0.7
+
+[node name="ParallaxTemplate" parent="." unique_id=240983443 instance=ExtResource("5_0nboi")]
+scale_2 = 0.8
+scale_4 = 0.8
+scale_6 = 0.7

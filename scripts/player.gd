@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 
-const SPEED = 1500.0
+const SPEED = 500.0
 const JUMP_VELOCITY = -400.0
 
 var current_mask = "none"

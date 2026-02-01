@@ -1,9 +1,9 @@
-[gd_scene format=3 uid="uid://t77kgr886nt8"]
+[gd_scene format=3 uid="uid://d02tuj1c8p761"]
 
-[ext_resource type="Script" uid="uid://bmd87hcyjo17l" path="res://scripts/level_template.gd" id="1_o6142"]
+[ext_resource type="Script" uid="uid://bmd87hcyjo17l" path="res://scripts/level_template.gd" id="1_k4rue"]
 
-[node name="Level_Template" type="Node2D" unique_id=1815400552]
-script = ExtResource("1_o6142")
+[node name="ParallaxTemplate" type="Node2D" unique_id=1815400552]
+script = ExtResource("1_k4rue")
 
 [node name="Parallax" type="Node2D" parent="." unique_id=777949917]
 position = Vector2(550, 350)

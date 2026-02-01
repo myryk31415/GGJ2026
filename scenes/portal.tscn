@@ -5,17 +5,32 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1ffj6"]
 size = Vector2(1248, 720)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v0xau"]
+size = Vector2(46.5, 733)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jr6l0"]
+size = Vector2(63, 655)
+
 [node name="Portal" type="Node2D" unique_id=750597789]
 script = ExtResource("1_v0xau")
 
-[node name="ColorRect" type="ColorRect" parent="." unique_id=1451841214]
+[node name="Texture2" type="ColorRect" parent="." unique_id=2119465416]
+unique_name_in_owner = true
 offset_top = -44.0
 offset_right = 45.0
-offset_bottom = 670.0
-color = Color(0.40990382, 0.22116262, 0.58984375, 1)
+offset_bottom = 694.0
+color = Color(0.5314515, 0.18387647, 0.67578125, 1)
+
+[node name="Texture" type="ColorRect" parent="." unique_id=1451841214]
+unique_name_in_owner = true
+offset_top = -44.0
+offset_right = 45.0
+offset_bottom = 694.0
+color = Color(0.5314515, 0.18387647, 0.67578125, 1)
 
 [node name="Area2D" type="Area2D" parent="." unique_id=1284291779]
 unique_name_in_owner = true
+visible = false
 collision_layer = 0
 collision_mask = 2
 
@@ -23,3 +38,20 @@ collision_mask = 2
 unique_name_in_owner = true
 position = Vector2(0, 329)
 shape = SubResource("RectangleShape2D_1ffj6")
+
+[node name="TeleportTrigger" type="Area2D" parent="." unique_id=627088301]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TeleportTrigger" unique_id=1731384128]
+position = Vector2(23.75, 332)
+shape = SubResource("RectangleShape2D_v0xau")
+
+[node name="BackCollision" type="StaticBody2D" parent="." unique_id=2012195354]
+collision_layer = 3
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BackCollision" unique_id=174587413]
+position = Vector2(76.5, 327.5)
+shape = SubResource("RectangleShape2D_jr6l0")
+
+[connection signal="body_entered" from="TeleportTrigger" to="." method="_on_teleport_trigger_body_entered"]
+[connection signal="body_exited" from="TeleportTrigger" to="." method="_on_teleport_trigger_body_exited"]
