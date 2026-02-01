@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dtli5ysunqa60"]
+
+[ext_resource type="PackedScene" uid="uid://t77kgr886nt8" path="res://scenes/level_template.tscn" id="1_0n0i2"]
+[ext_resource type="Texture2D" uid="uid://c4jm1nq5pe2kq" path="res://assets/ballroom/Parallaxe_1_Venice_Ballroom_lower_Layer.png" id="2_i0bv7"]
+[ext_resource type="Texture2D" uid="uid://dfp814gje8kt8" path="res://assets/ballroom/Parallaxe_1_Venice_Ballroom_upper_Layer.png" id="3_2frcd"]
+
+[node name="MaskedBall" type="Node2D" unique_id=1706377424]
+
+[node name="Level1" parent="." unique_id=1815400552 instance=ExtResource("1_0n0i2")]
+parallax_2 = ExtResource("2_i0bv7")
+offset_2 = 20
+scale_2 = 0.8
+parallax_4 = ExtResource("3_2frcd")
+offset_4 = -300
+scale_4 = 0.8

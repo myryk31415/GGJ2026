@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://btef052sg5va2"]
+
+[ext_resource type="PackedScene" uid="uid://t77kgr886nt8" path="res://scenes/level_template.tscn" id="1_ocmas"]
+[ext_resource type="Texture2D" uid="uid://v4bdlia34x7k" path="res://assets/space/Parallaxe_1_Space_6_from_top.png" id="2_gk1qj"]
+[ext_resource type="Texture2D" uid="uid://0axta1gpqnh6" path="res://assets/space/Parallaxe_1_Space_5_from_top.png" id="3_dv837"]
+[ext_resource type="Texture2D" uid="uid://dwyx4b8wmqqtc" path="res://assets/space/Parallaxe_1_Space_4_from_top.png" id="4_a65qk"]
+[ext_resource type="Texture2D" uid="uid://b6d5i1vueufn8" path="res://assets/space/Parallaxe_1_Space_3_from_top.png" id="5_85sbg"]
+[ext_resource type="Texture2D" uid="uid://vo44y3or2tsh" path="res://assets/space/Parallaxe_1_Space_2_from_top.png" id="6_rlquo"]
+[ext_resource type="Texture2D" uid="uid://bu41j5oskirxw" path="res://assets/space/Parallaxe_1_Space_1_from_top.png" id="7_7a7lp"]
+
+[node name="Space" type="Node2D" unique_id=811908889]
+
+[node name="Level3" parent="." unique_id=1815400552 instance=ExtResource("1_ocmas")]
+parallax_1 = ExtResource("2_gk1qj")
+parallax_2 = ExtResource("3_dv837")
+parallax_3 = ExtResource("4_a65qk")
+parallax_4 = ExtResource("5_85sbg")
+parallax_5 = ExtResource("6_rlquo")
+parallax_6 = ExtResource("7_7a7lp")

@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://d6nv3brsvrp8"]
+
+[ext_resource type="PackedScene" uid="uid://t77kgr886nt8" path="res://scenes/level_template.tscn" id="1_quloc"]
+[ext_resource type="Texture2D" uid="uid://cjb0mx1n5xcgh" path="res://assets/factory/fabrik neu3.png" id="2_k2tyu"]
+[ext_resource type="Texture2D" uid="uid://c071eulpf3adg" path="res://assets/factory/fabrik neu2.png" id="3_6h0me"]
+[ext_resource type="Texture2D" uid="uid://hp2tyna4q4ox" path="res://assets/factory/fabrik1..png" id="4_ayg0a"]
+
+[node name="Factory" type="Node2D" unique_id=564017957]
+
+[node name="Level2" parent="." unique_id=1815400552 instance=ExtResource("1_quloc")]
+position = Vector2(1, 0)
+scale_2 = 0.8
+parallax_3 = ExtResource("2_k2tyu")
+offset_3 = 50
+scale_3 = 0.7
+offset_4 = -250
+scale_4 = 0.6
+parallax_5 = ExtResource("3_6h0me")
+offset_5 = -150
+scale_5 = 0.8
+parallax_6 = ExtResource("4_ayg0a")
+offset_6 = -100
+scale_6 = 0.8

@@ -8,8 +8,9 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta: float) -> void:
-	if %Player.current_mask != %CurrentLevel.required_mask:
-		%CurrentLevel.mask_action
+	pass
+	#if %Player.current_mask != %CurrentLevel.required_mask:
+		#%CurrentLevel.mask_action
 
 
 func _on_portal_teleport() -> void:

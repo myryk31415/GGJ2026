@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://bmd87hcyjo17l" path="res://scripts/level_template.gd" id="1_o6142"]
 
-[node name="Level_Template" type="Node2D" unique_id=1815400552]
+[node name="ParallaxTemplate" type="Node2D" unique_id=1815400552]
 script = ExtResource("1_o6142")
 
 [node name="Parallax" type="Node2D" parent="." unique_id=777949917]
