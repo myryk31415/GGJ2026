@@ -2,28 +2,40 @@
 
 [ext_resource type="Script" uid="uid://dkxbesqn7krwb" path="res://scripts/player.gd" id="1_4flbx"]
 [ext_resource type="Texture2D" uid="uid://8gph430hf4br" path="res://assets/heart.png" id="2_g2els"]
+[ext_resource type="Texture2D" uid="uid://c03387pbmp3l7" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0000.png" id="2_nubpm"]
 [ext_resource type="Texture2D" uid="uid://duimehmbavewj" path="res://assets/Animations_And_Icons/GasMask/frame0000.png" id="3_f1ej7"]
+[ext_resource type="Texture2D" uid="uid://bb55g1fvqycdo" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0002.png" id="3_ua5cf"]
 [ext_resource type="Texture2D" uid="uid://cqbxedten2xtm" path="res://assets/Animations_And_Icons/UnMasked/frame0000.png" id="3_ujl30"]
 [ext_resource type="Texture2D" uid="uid://toi1sxa2dou7" path="res://assets/Animations_And_Icons/UnMasked/frame0001.png" id="4_31cv2"]
+[ext_resource type="Texture2D" uid="uid://bluw423sp8t8j" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0004.png" id="4_51ujp"]
 [ext_resource type="Texture2D" uid="uid://dj1fvjxmovsfb" path="res://assets/Animations_And_Icons/GasMask/frame0002.png" id="4_oprun"]
 [ext_resource type="Texture2D" uid="uid://dsypa5jyds50m" path="res://assets/Animations_And_Icons/GasMask/frame0004.png" id="5_a8ls1"]
 [ext_resource type="Texture2D" uid="uid://i800mxe3eb21" path="res://assets/Animations_And_Icons/UnMasked/frame0002.png" id="5_pf23h"]
+[ext_resource type="Texture2D" uid="uid://pqqcuh3oq6hb" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0006.png" id="5_tk41t"]
 [ext_resource type="Texture2D" uid="uid://hsgndeg1borx" path="res://assets/Animations_And_Icons/UnMasked/frame0003.png" id="6_dt7fs"]
+[ext_resource type="Texture2D" uid="uid://d0qrtm3tpptat" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0008.png" id="6_fuw3a"]
 [ext_resource type="Texture2D" uid="uid://c6elghyus8yca" path="res://assets/Animations_And_Icons/GasMask/frame0006.png" id="6_qfm1y"]
+[ext_resource type="Texture2D" uid="uid://8rtv5s25vrsq" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0010.png" id="7_8txt3"]
 [ext_resource type="Texture2D" uid="uid://661ijdkdaqwk" path="res://assets/Animations_And_Icons/GasMask/frame0008.png" id="7_fulsm"]
 [ext_resource type="Texture2D" uid="uid://dirx5tmo0plm6" path="res://assets/Animations_And_Icons/UnMasked/frame0004.png" id="7_wqfne"]
+[ext_resource type="Texture2D" uid="uid://qe4m0okyrmwr" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0012.png" id="8_2w11d"]
 [ext_resource type="Texture2D" uid="uid://daqn5q6fv74ug" path="res://assets/Animations_And_Icons/GasMask/frame0010.png" id="8_4r5pv"]
 [ext_resource type="Texture2D" uid="uid://uywwk6bo2pqv" path="res://assets/Animations_And_Icons/UnMasked/frame0005.png" id="8_wnwbv"]
 [ext_resource type="Texture2D" uid="uid://bf73kr4mdi0uh" path="res://assets/Animations_And_Icons/GasMask/frame0012.png" id="9_60mlk"]
+[ext_resource type="Texture2D" uid="uid://c6ric1n8ilv4f" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0014.png" id="9_770dr"]
 [ext_resource type="Texture2D" uid="uid://chbha3yg5qftu" path="res://assets/Animations_And_Icons/UnMasked/frame0006.png" id="9_gl8cc"]
+[ext_resource type="Texture2D" uid="uid://7b1qg64bqv43" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0016.png" id="10_8f1cb"]
 [ext_resource type="Texture2D" uid="uid://bolrkrka0fdcx" path="res://assets/Animations_And_Icons/UnMasked/frame0007.png" id="10_487ah"]
 [ext_resource type="Texture2D" uid="uid://cfy8nw1e4qpns" path="res://assets/Animations_And_Icons/GasMask/frame0014.png" id="10_i4ail"]
 [ext_resource type="Texture2D" uid="uid://bukpvlbx62ikh" path="res://assets/Animations_And_Icons/GasMask/frame0016.png" id="11_a38lo"]
 [ext_resource type="Texture2D" uid="uid://cxfisqc5dv5a6" path="res://assets/Animations_And_Icons/UnMasked/frame0008.png" id="11_md1ol"]
+[ext_resource type="Texture2D" uid="uid://c55p8x2ofq1e8" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0018.png" id="11_vdulj"]
 [ext_resource type="Texture2D" uid="uid://32v8osvjnvda" path="res://assets/Animations_And_Icons/GasMask/frame0018.png" id="12_4ni07"]
 [ext_resource type="Texture2D" uid="uid://cjibwtrgt65nb" path="res://assets/Animations_And_Icons/UnMasked/frame0009.png" id="12_bj30b"]
+[ext_resource type="Texture2D" uid="uid://ddjtbeduf83qt" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0020.png" id="12_vau08"]
 [ext_resource type="Texture2D" uid="uid://bpxysmi0sqb4" path="res://assets/Animations_And_Icons/UnMasked/frame0010.png" id="13_jc3p3"]
 [ext_resource type="Texture2D" uid="uid://creufdqltgp58" path="res://assets/Animations_And_Icons/GasMask/frame0020.png" id="13_l71n6"]
+[ext_resource type="Texture2D" uid="uid://dva67eruirwo2" path="res://assets/Animations_And_Icons/SchweißerMaske/frame0022.png" id="13_qsb7e"]
 [ext_resource type="Texture2D" uid="uid://o7u8wkxpleoe" path="res://assets/Animations_And_Icons/UnMasked/frame0011.png" id="14_hax0n"]
 [ext_resource type="Texture2D" uid="uid://v11i7i8igc8g" path="res://assets/Animations_And_Icons/GasMask/frame0022.png" id="14_ke2ow"]
 [ext_resource type="Texture2D" uid="uid://j3aeh8crq1mo" path="res://assets/Animations_And_Icons/VenedigMask/frame0000.png" id="15_t4otl"]
@@ -55,40 +67,40 @@
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("3_f1ej7")
+"texture": ExtResource("2_nubpm")
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_oprun")
+"texture": ExtResource("3_ua5cf")
 }, {
 "duration": 1.0,
-"texture": ExtResource("5_a8ls1")
+"texture": ExtResource("4_51ujp")
 }, {
 "duration": 1.0,
-"texture": ExtResource("6_qfm1y")
+"texture": ExtResource("5_tk41t")
 }, {
 "duration": 1.0,
-"texture": ExtResource("7_fulsm")
+"texture": ExtResource("6_fuw3a")
 }, {
 "duration": 1.0,
-"texture": ExtResource("8_4r5pv")
+"texture": ExtResource("7_8txt3")
 }, {
 "duration": 1.0,
-"texture": ExtResource("9_60mlk")
+"texture": ExtResource("8_2w11d")
 }, {
 "duration": 1.0,
-"texture": ExtResource("10_i4ail")
+"texture": ExtResource("9_770dr")
 }, {
 "duration": 1.0,
-"texture": ExtResource("11_a38lo")
+"texture": ExtResource("10_8f1cb")
 }, {
 "duration": 1.0,
-"texture": ExtResource("12_4ni07")
+"texture": ExtResource("11_vdulj")
 }, {
 "duration": 1.0,
-"texture": ExtResource("13_l71n6")
+"texture": ExtResource("12_vau08")
 }, {
 "duration": 1.0,
-"texture": ExtResource("14_ke2ow")
+"texture": ExtResource("13_qsb7e")
 }],
 "loop": true,
 "name": &"factory",
@@ -293,6 +305,8 @@ position = Vector2(235, 502)
 scale = Vector2(0.3845361, 0.3845361)
 sprite_frames = SubResource("SpriteFrames_ujl30")
 animation = &"factory"
+frame = 11
+frame_progress = 0.17514119
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1835926073]
 position = Vector2(123, 532.5)
