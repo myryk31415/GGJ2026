@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cu55c4a3r34ce"]
 
 [ext_resource type="Script" uid="uid://bg06ne24erced" path="res://scripts/game_over.gd" id="1_xeevv"]
+[ext_resource type="AudioStream" uid="uid://bcqflvklsn4uy" path="res://assets/music_and_sound/Death_it_is_the_true_ending.mp3" id="2_wqhvx"]
 
 [node name="GameOver" type="CanvasLayer" unique_id=1098373884]
 script = ExtResource("1_xeevv")
@@ -57,5 +58,9 @@ custom_minimum_size = Vector2(0, 80)
 layout_mode = 2
 theme_override_font_sizes/font_size = 30
 text = "Main Menu"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=2050349719]
+stream = ExtResource("2_wqhvx")
+autoplay = true
 
 [connection signal="pressed" from="ColorRect/MarginContainer/HBoxContainer/VBoxContainer/MainMenu" to="." method="_on_main_menu_pressed"]

@@ -1,9 +1,16 @@
 [gd_scene format=3 uid="uid://bg5tsici80b54"]
 
 [ext_resource type="Script" uid="uid://d1c1x410mju2t" path="res://scripts/main_menu.gd" id="1_l6cm7"]
+[ext_resource type="Texture2D" uid="uid://cxxn6b7dcisha" path="res://assets/main_menu.jpeg" id="2_ekxnf"]
 
 [node name="MainMenu" type="CanvasLayer" unique_id=1098373884]
 script = ExtResource("1_l6cm7")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=427475515]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("2_ekxnf")
+expand_mode = 1
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=333882924]
 anchors_preset = 15
@@ -11,7 +18,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.21030551, 0.07729775, 1, 1)
+color = Color(0.21176471, 0.078431375, 1, 0)
 
 [node name="MarginContainer" type="MarginContainer" parent="ColorRect" unique_id=178211008]
 layout_mode = 1
@@ -69,7 +76,7 @@ text = "Quit"
 [node name="ArtWork" type="ColorRect" parent="ColorRect/MarginContainer/HBoxContainer" unique_id=692391659]
 custom_minimum_size = Vector2(300, 300)
 layout_mode = 2
-color = Color(1, 0.32951224, 0.26226664, 1)
+color = Color(1, 0.32941177, 0.2627451, 0)
 
 [connection signal="pressed" from="ColorRect/MarginContainer/HBoxContainer/VBoxContainer/Start" to="." method="_on_start_pressed"]
 [connection signal="pressed" from="ColorRect/MarginContainer/HBoxContainer/VBoxContainer/Quit" to="." method="_on_quit_pressed"]
