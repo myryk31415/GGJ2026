@@ -3,17 +3,53 @@
 [ext_resource type="Script" uid="uid://dkxbesqn7krwb" path="res://scripts/player.gd" id="1_4flbx"]
 [ext_resource type="Texture2D" uid="uid://8gph430hf4br" path="res://assets/heart.png" id="2_g2els"]
 [ext_resource type="Texture2D" uid="uid://duimehmbavewj" path="res://assets/Animations_And_Icons/GasMask/frame0000.png" id="3_f1ej7"]
+[ext_resource type="Texture2D" uid="uid://cqbxedten2xtm" path="res://assets/Animations_And_Icons/UnMasked/frame0000.png" id="3_ujl30"]
+[ext_resource type="Texture2D" uid="uid://toi1sxa2dou7" path="res://assets/Animations_And_Icons/UnMasked/frame0001.png" id="4_31cv2"]
 [ext_resource type="Texture2D" uid="uid://dj1fvjxmovsfb" path="res://assets/Animations_And_Icons/GasMask/frame0002.png" id="4_oprun"]
 [ext_resource type="Texture2D" uid="uid://dsypa5jyds50m" path="res://assets/Animations_And_Icons/GasMask/frame0004.png" id="5_a8ls1"]
+[ext_resource type="Texture2D" uid="uid://i800mxe3eb21" path="res://assets/Animations_And_Icons/UnMasked/frame0002.png" id="5_pf23h"]
+[ext_resource type="Texture2D" uid="uid://hsgndeg1borx" path="res://assets/Animations_And_Icons/UnMasked/frame0003.png" id="6_dt7fs"]
 [ext_resource type="Texture2D" uid="uid://c6elghyus8yca" path="res://assets/Animations_And_Icons/GasMask/frame0006.png" id="6_qfm1y"]
 [ext_resource type="Texture2D" uid="uid://661ijdkdaqwk" path="res://assets/Animations_And_Icons/GasMask/frame0008.png" id="7_fulsm"]
+[ext_resource type="Texture2D" uid="uid://dirx5tmo0plm6" path="res://assets/Animations_And_Icons/UnMasked/frame0004.png" id="7_wqfne"]
 [ext_resource type="Texture2D" uid="uid://daqn5q6fv74ug" path="res://assets/Animations_And_Icons/GasMask/frame0010.png" id="8_4r5pv"]
+[ext_resource type="Texture2D" uid="uid://uywwk6bo2pqv" path="res://assets/Animations_And_Icons/UnMasked/frame0005.png" id="8_wnwbv"]
 [ext_resource type="Texture2D" uid="uid://bf73kr4mdi0uh" path="res://assets/Animations_And_Icons/GasMask/frame0012.png" id="9_60mlk"]
+[ext_resource type="Texture2D" uid="uid://chbha3yg5qftu" path="res://assets/Animations_And_Icons/UnMasked/frame0006.png" id="9_gl8cc"]
+[ext_resource type="Texture2D" uid="uid://bolrkrka0fdcx" path="res://assets/Animations_And_Icons/UnMasked/frame0007.png" id="10_487ah"]
 [ext_resource type="Texture2D" uid="uid://cfy8nw1e4qpns" path="res://assets/Animations_And_Icons/GasMask/frame0014.png" id="10_i4ail"]
 [ext_resource type="Texture2D" uid="uid://bukpvlbx62ikh" path="res://assets/Animations_And_Icons/GasMask/frame0016.png" id="11_a38lo"]
+[ext_resource type="Texture2D" uid="uid://cxfisqc5dv5a6" path="res://assets/Animations_And_Icons/UnMasked/frame0008.png" id="11_md1ol"]
 [ext_resource type="Texture2D" uid="uid://32v8osvjnvda" path="res://assets/Animations_And_Icons/GasMask/frame0018.png" id="12_4ni07"]
+[ext_resource type="Texture2D" uid="uid://cjibwtrgt65nb" path="res://assets/Animations_And_Icons/UnMasked/frame0009.png" id="12_bj30b"]
+[ext_resource type="Texture2D" uid="uid://bpxysmi0sqb4" path="res://assets/Animations_And_Icons/UnMasked/frame0010.png" id="13_jc3p3"]
 [ext_resource type="Texture2D" uid="uid://creufdqltgp58" path="res://assets/Animations_And_Icons/GasMask/frame0020.png" id="13_l71n6"]
+[ext_resource type="Texture2D" uid="uid://o7u8wkxpleoe" path="res://assets/Animations_And_Icons/UnMasked/frame0011.png" id="14_hax0n"]
 [ext_resource type="Texture2D" uid="uid://v11i7i8igc8g" path="res://assets/Animations_And_Icons/GasMask/frame0022.png" id="14_ke2ow"]
+[ext_resource type="Texture2D" uid="uid://j3aeh8crq1mo" path="res://assets/Animations_And_Icons/VenedigMask/frame0000.png" id="15_t4otl"]
+[ext_resource type="Texture2D" uid="uid://dbqh4bpc4vk2k" path="res://assets/Animations_And_Icons/VenedigMask/frame0002.png" id="16_j2b1d"]
+[ext_resource type="Texture2D" uid="uid://nivyks86tfl3" path="res://assets/Animations_And_Icons/VenedigMask/frame0004.png" id="17_cs1tg"]
+[ext_resource type="Texture2D" uid="uid://d1r4r6204h2iu" path="res://assets/Animations_And_Icons/VenedigMask/frame0006.png" id="18_2dvfe"]
+[ext_resource type="Texture2D" uid="uid://bbavg2a1vi7uf" path="res://assets/Animations_And_Icons/VenedigMask/frame0008.png" id="19_giy8y"]
+[ext_resource type="Texture2D" uid="uid://1452y8tbdjow" path="res://assets/Animations_And_Icons/VenedigMask/frame0010.png" id="20_fdfoy"]
+[ext_resource type="Texture2D" uid="uid://nl6ucfoo0xrq" path="res://assets/Animations_And_Icons/VenedigMask/frame0012.png" id="21_hhpqf"]
+[ext_resource type="Texture2D" uid="uid://dqnncvrngad7h" path="res://assets/Animations_And_Icons/VenedigMask/frame0014.png" id="22_g5jhy"]
+[ext_resource type="Texture2D" uid="uid://dt8jo46ohg1gg" path="res://assets/Animations_And_Icons/VenedigMask/frame0016.png" id="23_holxr"]
+[ext_resource type="Texture2D" uid="uid://bc53ubsn1u3xx" path="res://assets/Animations_And_Icons/VenedigMask/frame0018.png" id="24_mx1m4"]
+[ext_resource type="Texture2D" uid="uid://bfvfy13dofrb5" path="res://assets/Animations_And_Icons/VenedigMask/frame0020.png" id="25_4gjji"]
+[ext_resource type="Texture2D" uid="uid://b0m46rhrnqw71" path="res://assets/Animations_And_Icons/VenedigMask/frame0022.png" id="26_u2ulf"]
+[ext_resource type="Texture2D" uid="uid://dk6r5lfkav0tw" path="res://assets/Animations_And_Icons/Astro/frame0000.png" id="27_6e8lb"]
+[ext_resource type="Texture2D" uid="uid://i8yoy5b2y8u" path="res://assets/Animations_And_Icons/Astro/frame0002.png" id="28_2gdjj"]
+[ext_resource type="Texture2D" uid="uid://cpq17fdp5hqed" path="res://assets/Animations_And_Icons/Astro/frame0004.png" id="29_sc3ue"]
+[ext_resource type="Texture2D" uid="uid://b01uj314ayeds" path="res://assets/Animations_And_Icons/Astro/frame0006.png" id="30_lxlsd"]
+[ext_resource type="Texture2D" uid="uid://ck4i51m11sm4c" path="res://assets/Animations_And_Icons/Astro/frame0008.png" id="31_ha2mi"]
+[ext_resource type="Texture2D" uid="uid://88e0dkyp7s1o" path="res://assets/Animations_And_Icons/Astro/frame0010.png" id="32_apa73"]
+[ext_resource type="Texture2D" uid="uid://b2p82kn1j4f5j" path="res://assets/Animations_And_Icons/Astro/frame0012.png" id="33_74r1k"]
+[ext_resource type="Texture2D" uid="uid://capsr2yqmxcdu" path="res://assets/Animations_And_Icons/Astro/frame0014.png" id="34_8svfe"]
+[ext_resource type="Texture2D" uid="uid://cbx1pkkrhx888" path="res://assets/Animations_And_Icons/Astro/frame0016.png" id="35_2a3c5"]
+[ext_resource type="Texture2D" uid="uid://dyq8ipb6swsao" path="res://assets/Animations_And_Icons/Astro/frame0018.png" id="36_42b1b"]
+[ext_resource type="Texture2D" uid="uid://c4egutubmjldd" path="res://assets/Animations_And_Icons/Astro/frame0020.png" id="37_h7ic4"]
+[ext_resource type="Texture2D" uid="uid://ctb3jm3fi8es2" path="res://assets/Animations_And_Icons/Astro/frame0022.png" id="38_au7lq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3vyb7"]
 size = Vector2(72, 227)
@@ -79,7 +115,171 @@ animations = [{
 "texture": ExtResource("14_ke2ow")
 }],
 "loop": true,
-"name": &"default",
+"name": &"factory",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_ujl30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_31cv2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_pf23h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_dt7fs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_wqfne")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_wnwbv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_gl8cc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_487ah")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_md1ol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_bj30b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_jc3p3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_hax0n")
+}],
+"loop": true,
+"name": &"forest",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_t4otl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_j2b1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_cs1tg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_2dvfe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_giy8y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_fdfoy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_hhpqf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_g5jhy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_holxr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_mx1m4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_4gjji")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_u2ulf")
+}],
+"loop": true,
+"name": &"masked_ball",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("27_6e8lb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_2gdjj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_sc3ue")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_lxlsd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_ha2mi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_apa73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_74r1k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_8svfe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_2a3c5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_42b1b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_h7ic4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_au7lq")
+}],
+"loop": true,
+"name": &"space",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_f1ej7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_oprun")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_a8ls1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_qfm1y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_fulsm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_4r5pv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_60mlk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_i4ail")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_a38lo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_4ni07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_l71n6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ke2ow")
+}],
+"loop": true,
+"name": &"wasteland",
 "speed": 12.0
 }]
 
@@ -128,4 +328,4 @@ unique_name_in_owner = true
 position = Vector2(235, 502)
 scale = Vector2(0.3845361, 0.3845361)
 sprite_frames = SubResource("SpriteFrames_ujl30")
-frame_progress = 0.14615674
+animation = &"factory"

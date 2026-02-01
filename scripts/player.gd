@@ -52,12 +52,13 @@ func _physics_process(delta: float) -> void:
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
+	var animation: String = get_node("/root/Game/CurrentLevel/").get_child(0).name.to_snake_case()
 	if velocity.x > 0.1:
 		%AnimatedSprite2D.flip_h = false
-		%AnimatedSprite2D.play("default")
+		%AnimatedSprite2D.play(animation)
 	elif velocity.x < -0.1:
 		%AnimatedSprite2D.flip_h = false
-		%AnimatedSprite2D.play_backwards("default")
+		%AnimatedSprite2D.play_backwards(animation)
 	else:
 		%AnimatedSprite2D.pause()
 	
