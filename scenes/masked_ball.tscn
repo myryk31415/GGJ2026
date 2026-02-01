@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://dtli5ysunqa60"]
+[gd_scene format=3 uid="uid://d1ptcd4tope6k"]
 
 [ext_resource type="PackedScene" uid="uid://t77kgr886nt8" path="res://scenes/level_template.tscn" id="1_0n0i2"]
 [ext_resource type="Texture2D" uid="uid://c4jm1nq5pe2kq" path="res://assets/ballroom/Parallaxe_1_Venice_Ballroom_lower_Layer.png" id="2_i0bv7"]
@@ -7,7 +7,7 @@
 [node name="MaskedBall" type="Node2D" unique_id=1706377424]
 
 [node name="Parallax" parent="." unique_id=1815400552 instance=ExtResource("1_0n0i2")]
-next_level = "res://scenes/forest.tscn"
+next_level = "forest"
 parallax_2 = ExtResource("2_i0bv7")
 offset_2 = 20
 scale_2 = 0.8

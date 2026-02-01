@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://btef052sg5va2"]
+[gd_scene format=3 uid="uid://jexmndexpq1g"]
 
 [ext_resource type="PackedScene" uid="uid://t77kgr886nt8" path="res://scenes/level_template.tscn" id="1_ocmas"]
 [ext_resource type="Texture2D" uid="uid://v4bdlia34x7k" path="res://assets/space/Parallaxe_1_Space_6_from_top.png" id="2_gk1qj"]
@@ -11,7 +11,7 @@
 [node name="Space" type="Node2D" unique_id=811908889]
 
 [node name="Parallax" parent="." unique_id=1815400552 instance=ExtResource("1_ocmas")]
-next_level = "res://scenes/factory.tscn"
+next_level = "factory"
 parallax_1 = ExtResource("2_gk1qj")
 parallax_2 = ExtResource("3_dv837")
 parallax_3 = ExtResource("4_a65qk")

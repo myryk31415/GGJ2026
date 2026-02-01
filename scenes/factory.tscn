@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://d6nv3brsvrp8"]
+[gd_scene format=3 uid="uid://cr3vy0j8dbrxr"]
 
 [ext_resource type="PackedScene" uid="uid://t77kgr886nt8" path="res://scenes/level_template.tscn" id="1_quloc"]
 [ext_resource type="Texture2D" uid="uid://cjb0mx1n5xcgh" path="res://assets/factory/fabrik neu3.png" id="2_k2tyu"]
@@ -9,7 +9,7 @@
 
 [node name="Parallax" parent="." unique_id=1815400552 instance=ExtResource("1_quloc")]
 position = Vector2(1, 0)
-next_level = "res://scenes/masked_ball.tscn"
+next_level = "masked_ball"
 scale_2 = 0.8
 parallax_3 = ExtResource("2_k2tyu")
 offset_3 = 50

@@ -51,30 +51,6 @@
 [ext_resource type="Texture2D" uid="uid://c4egutubmjldd" path="res://assets/Animations_And_Icons/Astro/frame0020.png" id="37_h7ic4"]
 [ext_resource type="Texture2D" uid="uid://ctb3jm3fi8es2" path="res://assets/Animations_And_Icons/Astro/frame0022.png" id="38_au7lq"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_3vyb7"]
-size = Vector2(72, 227)
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3vyb7"]
-bg_color = Color(0.28515625, 0.15171888, 0.12175174, 1)
-corner_radius_top_left = 8
-corner_radius_top_right = 8
-corner_radius_bottom_right = 8
-corner_radius_bottom_left = 8
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g2els"]
-bg_color = Color(0.3379285, 0.89453125, 0.23117329, 1)
-corner_radius_top_left = 8
-corner_radius_top_right = 8
-corner_radius_bottom_right = 8
-corner_radius_bottom_left = 8
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qhqgy"]
-bg_color = Color(0.2746194, 0.21917725, 0.51953125, 1)
-corner_radius_top_left = 8
-corner_radius_top_right = 8
-corner_radius_bottom_right = 8
-corner_radius_bottom_left = 8
-
 [sub_resource type="SpriteFrames" id="SpriteFrames_ujl30"]
 animations = [{
 "frames": [{
@@ -283,9 +259,40 @@ animations = [{
 "speed": 12.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3vyb7"]
+size = Vector2(72, 227)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3vyb7"]
+bg_color = Color(0.28515625, 0.15171888, 0.12175174, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g2els"]
+bg_color = Color(0.3379285, 0.89453125, 0.23117329, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qhqgy"]
+bg_color = Color(0.2746194, 0.21917725, 0.51953125, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
 [node name="Player" type="CharacterBody2D" unique_id=1855753391]
 collision_layer = 3
 script = ExtResource("1_4flbx")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=470073201]
+unique_name_in_owner = true
+position = Vector2(235, 502)
+scale = Vector2(0.3845361, 0.3845361)
+sprite_frames = SubResource("SpriteFrames_ujl30")
+animation = &"factory"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1835926073]
 position = Vector2(123, 532.5)
@@ -322,10 +329,3 @@ show_percentage = false
 position = Vector2(850.00006, 102)
 scale = Vector2(0.8749997, 0.8749997)
 texture = ExtResource("2_g2els")
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=470073201]
-unique_name_in_owner = true
-position = Vector2(235, 502)
-scale = Vector2(0.3845361, 0.3845361)
-sprite_frames = SubResource("SpriteFrames_ujl30")
-animation = &"factory"

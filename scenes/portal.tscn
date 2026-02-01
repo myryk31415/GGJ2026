@@ -47,15 +47,6 @@
 [ext_resource type="Texture2D" uid="uid://drjakh77wiqv5" path="res://assets/Animations_And_Icons/Portale/BallRaumPortal/frame0008.png" id="37_nawit"]
 [ext_resource type="Texture2D" uid="uid://d0ibn0mfakmw0" path="res://assets/Animations_And_Icons/Portale/Weltraum_Portal/frame0008.png" id="37_oqts3"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_1ffj6"]
-size = Vector2(1248, 720)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_v0xau"]
-size = Vector2(46.5, 733)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_jr6l0"]
-size = Vector2(63, 655)
-
 [sub_resource type="SpriteFrames" id="SpriteFrames_7typk"]
 animations = [{
 "frames": [{
@@ -217,26 +208,59 @@ animations = [{
 "loop": true,
 "name": &"space",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_5yude")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_e5sgc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_11dha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_hay7w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_33yj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ybu0s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_h50eh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_f7pif")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_kjyi5")
+}],
+"loop": true,
+"name": &"wasteland",
+"speed": 5.0
 }]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1ffj6"]
+size = Vector2(1248, 720)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v0xau"]
+size = Vector2(46.5, 733)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jr6l0"]
+size = Vector2(63, 655)
 
 [node name="Portal" type="Node2D" unique_id=750597789]
 script = ExtResource("1_v0xau")
 
-[node name="Texture2" type="ColorRect" parent="." unique_id=2119465416]
-unique_name_in_owner = true
-visible = false
-offset_top = -44.0
-offset_right = 45.0
-offset_bottom = 694.0
-color = Color(0.5314515, 0.18387647, 0.67578125, 1)
-
-[node name="Texture" type="ColorRect" parent="." unique_id=1451841214]
-unique_name_in_owner = true
-visible = false
-offset_top = -44.0
-offset_right = 45.0
-offset_bottom = 694.0
-color = Color(0.5314515, 0.18387647, 0.67578125, 1)
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=204566107]
+position = Vector2(61.00003, 449.99997)
+scale = Vector2(0.3305556, 0.33055553)
+sprite_frames = SubResource("SpriteFrames_7typk")
+animation = &"wasteland"
+autoplay = "default"
+frame_progress = 0.26364818
 
 [node name="Area2D" type="Area2D" parent="." unique_id=1284291779]
 unique_name_in_owner = true
@@ -263,14 +287,6 @@ collision_mask = 3
 [node name="CollisionShape2D" type="CollisionShape2D" parent="BackCollision" unique_id=174587413]
 position = Vector2(76.5, 327.5)
 shape = SubResource("RectangleShape2D_jr6l0")
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=204566107]
-position = Vector2(61.00003, 449.99997)
-scale = Vector2(0.3305556, 0.33055553)
-sprite_frames = SubResource("SpriteFrames_7typk")
-animation = &"space"
-autoplay = "default"
-frame_progress = 0.23240963
 
 [connection signal="body_entered" from="TeleportTrigger" to="." method="_on_teleport_trigger_body_entered"]
 [connection signal="body_exited" from="TeleportTrigger" to="." method="_on_teleport_trigger_body_exited"]

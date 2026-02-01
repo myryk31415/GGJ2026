@@ -43,6 +43,8 @@ func _ready() -> void:
 		sprite.scale = Vector2(scale_1, scale_1)
 		repeat_size = sprite.texture.get_width() * sprite.scale.x
 		$Parallax/Parallax1.repeat_size = Vector2(repeat_size, 0)
+	get_node("/root/Game/Portal/AnimatedSprite2D").play(next_level)
+	get_node("/root/Game/Player/AnimatedSprite2D").play(get_parent().name.to_snake_case())
 	
 	sprite = $Parallax/Parallax2/Sprite2D
 	sprite.texture = parallax_2
