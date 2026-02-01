@@ -34,7 +34,7 @@ func change_stress(amount: float):
 	%StressBar.value = stress
 
 func _ready() -> void:
-	%AnimatedSprite2D.play("default")
+	pass
 
 # move function for sidescroller
 func _physics_process(delta: float) -> void:
@@ -52,6 +52,15 @@ func _physics_process(delta: float) -> void:
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
+	if velocity.x > 0.1:
+		%AnimatedSprite2D.flip_h = false
+		%AnimatedSprite2D.play("default")
+	elif velocity.x < -0.1:
+		%AnimatedSprite2D.flip_h = false
+		%AnimatedSprite2D.play_backwards("default")
+	else:
+		%AnimatedSprite2D.pause()
+	
 	move_and_slide()
 
 

@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://ckt2113grdyno"]
+[gd_scene format=3 uid="uid://bytmsua4fpfo4"]
 
 [ext_resource type="PackedScene" uid="uid://t77kgr886nt8" path="res://scenes/level_template.tscn" id="1_xr56k"]
 [ext_resource type="Texture2D" uid="uid://dm50l8j3vsj0e" path="res://assets/forest/wald neu3.png" id="2_sek5r"]
@@ -15,5 +15,5 @@ parallax_4 = ExtResource("3_i1yi8")
 offset_4 = -120
 scale_4 = 0.8
 parallax_6 = ExtResource("4_qm7rg")
-offset_6 = -250
+offset_6 = -240
 scale_6 = 0.7
