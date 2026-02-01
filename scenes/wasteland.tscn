@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://dua1djei2c7od"]
+
+[ext_resource type="PackedScene" path="res://scenes/parallax_template.tscn" id="1_a2i47"]
+[ext_resource type="Texture2D" uid="uid://dt56fd0tbihho" path="res://assets/wasteland/wasteland hinten.png" id="2_ec0cy"]
+[ext_resource type="Texture2D" uid="uid://xpkhsna3rf5a" path="res://assets/wasteland/wasteland layer5.png" id="3_ytox3"]
+[ext_resource type="Texture2D" uid="uid://c3qegdunv20x8" path="res://assets/wasteland/wasteland layer4.png" id="4_o5gs6"]
+[ext_resource type="Texture2D" uid="uid://bw1w07kxyn7jn" path="res://assets/wasteland/wasteland layer3.png" id="5_axakg"]
+[ext_resource type="Texture2D" uid="uid://dlqi47k17cn34" path="res://assets/wasteland/wasteland layer2.png" id="6_t4hur"]
+[ext_resource type="Texture2D" uid="uid://b232depwilm8t" path="res://assets/wasteland/wasteland layer1.png" id="7_0olle"]
+
+[node name="Wasteland" type="Node2D" unique_id=550227671]
+
+[node name="Parallax" parent="." unique_id=1815400552 instance=ExtResource("1_a2i47")]
+next_level = "masked_ball"
+parallax_1 = ExtResource("2_ec0cy")
+scale_1 = 0.7
+parallax_2 = ExtResource("3_ytox3")
+scale_2 = 0.7
+parallax_3 = ExtResource("4_o5gs6")
+scale_3 = 0.7
+parallax_4 = ExtResource("5_axakg")
+scale_4 = 0.7
+parallax_5 = ExtResource("6_t4hur")
+offset_5 = -120
+scale_5 = 0.7
+parallax_6 = ExtResource("7_0olle")
+offset_6 = -200
+scale_6 = 0.7
