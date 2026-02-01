@@ -33,6 +33,9 @@ func change_stress(amount: float):
 		get_tree().change_scene_to_file("res://scenes/game_over.tscn")
 	%StressBar.value = stress
 
+func _ready() -> void:
+	%AnimatedSprite2D.play("default")
+
 # move function for sidescroller
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
