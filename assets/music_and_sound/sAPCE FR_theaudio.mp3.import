@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bmqnusw3xgwuv"
+path="res://.godot/imported/sAPCE FR_theaudio.mp3-c41c220e516d289f3be8010ccd866225.mp3str"
+
+[deps]
+
+source_file="res://assets/music_and_sound/sAPCE FR_theaudio.mp3"
+dest_files=["res://.godot/imported/sAPCE FR_theaudio.mp3-c41c220e516d289f3be8010ccd866225.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
