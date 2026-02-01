@@ -4,8 +4,8 @@ extends CharacterBody2D
 const SPEED = 500.0
 const JUMP_VELOCITY = -400.0
 
-var current_mask = "none"
-var mask_animation ="none"
+var current_mask = "forest"
+var mask_animation ="forest"
 var available_masks: Array[String] = []
 var health = 100.0
 var stress = 0.0
@@ -40,7 +40,7 @@ func _ready() -> void:
 
 # move function for sidescroller
 func _physics_process(delta: float) -> void:
-	switch_mask()
+	check_mask(delta)
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta
@@ -74,9 +74,22 @@ func _physics_process(delta: float) -> void:
 	
 	move_and_slide()
 
-func switch_mask():
-	print(current_mask)
-	
+func check_mask(delta: float):
+	print(get_node("/root/Game/CurrentLevel").get_child(0).name)
+	var level = get_node("/root/Game/CurrentLevel").get_child(0).name.to_snake_case()
+	if current_mask!= level:
+		if level == "masked_ball":
+			change_stress(+10*delta)
+			print("here")
+		if level == "wasteland":
+			change_health(-10*delta)
+		if level == "factory":
+			change_health(-10*delta)	
+		if level == "space":
+			change_health(-10*delta)
+	elif level == "forest":
+		change_stress(-5*delta)
+
 
 func add_mask(mask: String):
 	available_masks.append(mask)
