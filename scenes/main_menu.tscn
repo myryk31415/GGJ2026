@@ -48,7 +48,7 @@ color = Color(1, 0.32951224, 0.26226664, 1)
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_font_sizes/font_size = 75
-text = "Game Title"
+text = "Paramaske"
 horizontal_alignment = 1
 
 [node name="Start" type="Button" parent="ColorRect/MarginContainer/HBoxContainer/VBoxContainer" unique_id=744270468]
