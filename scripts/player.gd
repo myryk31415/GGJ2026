@@ -75,12 +75,10 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 
 func check_mask(delta: float):
-	print(get_node("/root/Game/CurrentLevel").get_child(0).name)
 	var level = get_node("/root/Game/CurrentLevel").get_child(0).name.to_snake_case()
 	if current_mask!= level:
 		if level == "masked_ball":
 			change_stress(+10*delta)
-			print("here")
 		if level == "wasteland":
 			change_health(-10*delta)
 		if level == "factory":
