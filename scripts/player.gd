@@ -78,6 +78,7 @@ func _input(event: InputEvent):
 	if event.is_action("maske1"):
 		if available_masks.find("maske1") != -1:
 			current_mask = "maske1"
+			print("maske1")
 	if event.is_action("maske2"):
 		if available_masks.find("maske2") != -1:
 			current_mask = "maske2"
