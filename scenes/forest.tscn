@@ -21,7 +21,7 @@ parallax_4 = ExtResource("3_i1yi8")
 offset_4 = -120
 scale_4 = 0.8
 parallax_6 = ExtResource("4_qm7rg")
-offset_6 = -240
+offset_6 = -262
 scale_6 = 0.7
 
 [node name="Area2D" type="Area2D" parent="." unique_id=1633674123]
